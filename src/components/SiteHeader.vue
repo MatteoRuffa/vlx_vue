@@ -2,7 +2,7 @@
   <header class="site-header" :class="{ open: isMenuOpen }">
     <div class="container">
       <div class="logo">
-        <img src="/assets/veleex1.png" alt="Veleex Logo" />
+        <img src="assets/veleex1.png" alt="Veleex Logo" />
       </div>
       <nav class="menu-desktop">
         <ul>
