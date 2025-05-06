@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: flex-start;
   padding-left: 5%;
-  padding-top: 15%;
+  padding-top: 20%;
   background-color: #fff;
   overflow: hidden;
 

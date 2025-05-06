@@ -19,6 +19,11 @@
           <img src="/src/assets/partner4.png" alt="Partner 4" />
         </div>
       </div>
+      <div class="bando-logo">
+        <a href="/TARGA-MANIFESTO.pdf" target="_blank" rel="noopener">
+          <img src="/logo_bando_1.jpg" alt="Logo Bando" />
+        </a>
+      </div>
     </div>
   </section>
 </template>
@@ -69,5 +74,26 @@
     height: auto;
     object-fit: contain;
   }
+
+  .bando-logo {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 40vw;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  @media (max-width: 768px) {
+    img {
+      width: 90vw;
+    }
+  }
+}
+
+
 }
 </style>
