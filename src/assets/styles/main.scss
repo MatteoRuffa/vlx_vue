@@ -1,7 +1,8 @@
-@import './partials/variables';
-@import './partials/fonts';
+@use './partials/variables';
+@use './partials/fonts';
 
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
   }

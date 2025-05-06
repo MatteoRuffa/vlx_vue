@@ -1,48 +1,73 @@
 <template>
-    <section id="partners" class="partners-section">
-      <div class="container">
-        <h2>Partner commerciali</h2>
-        <p>Collaboriamo con aziende di riferimento nel settore per offrire soluzioni affidabili e innovative.</p>
-        <div class="partner-logos">
-          <!-- Loghi partner placeholder -->
-          <div class="logo">Partner 1</div>
-          <div class="logo">Partner 2</div>
-          <div class="logo">Partner 3</div>
+  <section class="partners-section">
+    <div class="wrapper">
+      <h2>I nostri partner</h2>
+      <p class="description">
+        Collaboriamo con aziende affidabili e innovative che condividono i nostri valori e ci aiutano a offrire soluzioni di qualità su misura per ogni cliente.
+      </p>
+      <div class="partners-grid">
+        <div class="partner-logo">
+          <img src="/src/assets/partner1.png" alt="Partner 1" />
+        </div>
+        <div class="partner-logo">
+          <img src="/src/assets/partner2.png" alt="Partner 2" />
+        </div>
+        <div class="partner-logo">
+          <img src="/src/assets/partner3.png" alt="Partner 3" />
+        </div>
+        <div class="partner-logo">
+          <img src="/src/assets/partner4.png" alt="Partner 4" />
         </div>
       </div>
-    </section>
-  </template>
-  
-  <script setup>
-  </script>
-  
-  <style scoped>
-  .partners-section {
-    padding: 4rem 1rem;
-    background-color: #ffffff;
-    text-align: center;
-  }
-  
-  .container {
-    max-width: 960px;
+    </div>
+  </section>
+</template>
+
+<script setup>
+</script>
+
+<style scoped lang="scss">
+.partners-section {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+  text-align: center;
+
+  .wrapper {
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 1rem;
   }
-  
-  .partner-logos {
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .partners-grid {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin-top: 2rem;
   }
-  
-  .logo {
-    width: 120px;
-    height: 60px;
-    background-color: #e0e0e0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
+
+  .partner-logo {
+    flex: 1 1 200px;
+    max-width: 200px;
   }
-  </style>
-  
+
+  .partner-logo img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+</style>

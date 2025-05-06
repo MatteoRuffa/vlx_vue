@@ -7,9 +7,9 @@
       <nav class="menu-desktop">
         <ul>
           <li><a href="#home">Home</a></li>
+          <li><a href="#about">Chi siamo</a></li>
           <li><a href="#services">Servizi</a></li>
-          <li><a href="#partners">Partner</a></li>
-          <li><a href="#contact">Contatti</a></li>
+          <li><a href="#partners">Partners</a></li>
         </ul>
       </nav>
       <button class="hamburger" @click="toggleMenu">
@@ -23,9 +23,9 @@
       <button class="close" @click="toggleMenu">&times;</button>
       <ul>
         <li><a href="#home" @click="toggleMenu">Home</a></li>
-        <li><a href="#services" @click="toggleMenu">Servizi</a></li>
-        <li><a href="#partners" @click="toggleMenu">Partner</a></li>
-        <li><a href="#contact" @click="toggleMenu">Contatti</a></li>
+        <li><a href="#about" @click="toggleMenu">Chi siamo</a></li>
+        <li><a href="#service" @click="toggleMenu">Servizi</a></li>
+        <li><a href="#partners" @click="toggleMenu">Partners</a></li>
       </ul>
     </div>
   </header>
@@ -66,7 +66,7 @@ const toggleMenu = () => (isMenuOpen.value = !isMenuOpen.value)
 
     ul {
       display: flex;
-      gap: 2rem;
+      gap: 4rem;
       list-style: none;
       margin: 0;
       padding: 0;
