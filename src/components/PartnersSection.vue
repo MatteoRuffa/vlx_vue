@@ -7,16 +7,16 @@
       </p>
       <div class="partners-grid">
         <div class="partner-logo">
-          <img src="/src/assets/partner1.png" alt="Partner 1" />
+          <img src="/images/patners/acrolcar.jpg" alt="Partner 1" />
         </div>
         <div class="partner-logo">
-          <img src="/src/assets/partner2.png" alt="Partner 2" />
+          <img src="/images/patners/crf.png" alt="Partner 2" />
         </div>
         <div class="partner-logo">
-          <img src="/src/assets/partner3.png" alt="Partner 3" />
+          <img src="/images/patners/goma.png" alt="Partner 3" />
         </div>
         <div class="partner-logo">
-          <img src="/src/assets/partner4.png" alt="Partner 4" />
+          <img src="/images/patners/renaudo.png" alt="Partner 4" />
         </div>
       </div>
       <div class="bando-logo">
@@ -61,7 +61,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
   }
 
   .partner-logo {
