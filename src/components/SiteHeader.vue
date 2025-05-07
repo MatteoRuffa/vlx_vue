@@ -3,7 +3,7 @@
     <div class="container">
       <div class="logo">
         <img src="/logo.png" alt="Veleex Logo" />
-        <span class="logo-text">Veleex</span>
+        <!-- <span class="logo-text">Veleex</span> -->
       </div>
       <nav class="menu-desktop">
         <ul>

@@ -19,7 +19,7 @@
 
       <div class="service-block">
         <div class="service-content">
-          <img src="/icon_1.png" alt="Icona Tecnologie moderne" />
+          <img src="/icon_2.png" alt="Icona Tecnologie moderne" />
           <div class="text">
             <h3>Tecnologie moderne</h3>
             <p>
@@ -35,7 +35,7 @@
 
       <div class="service-block">
         <div class="service-content reverse">
-          <img src="/icon_1.png" alt="Icona Approccio consulenziale" />
+          <img src="/icon_3.png" alt="Icona Approccio consulenziale" />
           <div class="text">
             <h3>Approccio consulenziale</h3>
             <p>
@@ -49,7 +49,7 @@
 
       <div class="service-block">
         <div class="service-content">
-          <img src="/icon_1.png" alt="Icona Assistenza e continuità" />
+          <img src="/icon_4.png" alt="Icona Assistenza e continuità" />
           <div class="text">
             <h3>Assistenza e continuità</h3>
             <p>
@@ -103,7 +103,7 @@
 
       h3 {
         font-size: 1.4rem;
-        color: #8b0000;
+        color: #1a1a1a;
         margin-bottom: 1rem;
       }
 
@@ -123,16 +123,21 @@
     }
 
     @media (max-width: 768px) {
-      flex-direction: column;
-
-      &.reverse {
+      .service-content {
         flex-direction: column;
-      }
+        gap: 1rem; 
+        margin-bottom: 2rem; 
 
-      .text {
-        text-align: left;
+        &.reverse {
+          flex-direction: column;
+        }
+
+        .text {
+          text-align: left;
+        }
       }
     }
+
   }
 }
 </style>

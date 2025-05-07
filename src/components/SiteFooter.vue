@@ -2,12 +2,12 @@
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-logo">
-        <img src="/src/assets/logo-footer.png" alt="Logo Veleex Srl" />
+        <img src="/logo.png" alt="Logo Veleex Srl" />
       </div>
       <div class="footer-info">
         <p class="company-name">Veleex Srl</p>
-        <p>Via Esempio 123, 00100 Roma</p>
-        <p>P.IVA 12345678901</p>
+        <p>Via Bivio 6, 10060 Frossasco</p>
+        <p>P.IVA 11936540019</p>
         <p>info@veleex.it</p>
       </div>
       <div class="footer-links">
