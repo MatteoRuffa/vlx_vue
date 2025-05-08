@@ -121,23 +121,30 @@
         text-align: left;
       }
     }
+  }
 
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
       .service-content {
-        flex-direction: column;
-        gap: 1rem; 
-        margin-bottom: 2rem; 
+        flex-direction: column !important;
+        gap: 1rem;
+        margin-bottom: 2rem;
+        align-items: flex-start;
+        align-items: center;
 
-        &.reverse {
-          flex-direction: column;
+        img {
+          width: 100%;
+          height: auto;
+          max-width: 200px;
         }
 
         .text {
           text-align: left;
         }
       }
-    }
 
-  }
+      .service-block {
+        margin-bottom: 2rem;
+      }
+    }
 }
 </style>

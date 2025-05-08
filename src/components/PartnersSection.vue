@@ -1,5 +1,5 @@
 <template>
-  <section class="partners-section">
+  <section id="partners" class="partners-section">
     <div class="wrapper">
       <h2>I nostri partner</h2>
       <p class="description">
@@ -55,6 +55,7 @@
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    padding:  2rem;
   }
 
   .partners-grid {
@@ -62,6 +63,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
+    padding: 2rem 0;
   }
 
   .partner-logo {
@@ -79,6 +81,7 @@
   margin-top: 3rem;
   display: flex;
   justify-content: center;
+  padding: 2rem;
 
   img {
     width: 40vw;

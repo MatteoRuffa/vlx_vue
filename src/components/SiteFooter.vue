@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-logo">
-        <img src="/logo.png" alt="Logo Veleex Srl" />
+        <img src="/veleex2.png" alt="Logo Veleex Srl" />
       </div>
       <div class="footer-info">
         <p class="company-name">Veleex Srl</p>
@@ -99,5 +99,30 @@
     padding-top: 1rem;
     color: #aaa;
   }
+
+  @media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-info,
+  .footer-links {
+    align-items: center;
+  }
+
+  .footer-links ul {
+    padding: 0;
+  }
+
+  .footer-links li {
+    margin: 0.3rem 0;
+  }
+
+  .footer-bottom {
+    margin-top: 0.5rem;
+  }
+}
 }
 </style>
