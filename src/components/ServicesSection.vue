@@ -5,7 +5,7 @@
 
       <div class="service-block">
         <div class="service-content reverse">
-          <img src="/icon_1.png" alt="Icona Sviluppo su misura" />
+          <img src="/images/icons/icon_1.png" alt="Icona Sviluppo su misura" />
           <div class="text">
             <h3>Sviluppo su misura</h3>
             <p>
@@ -19,7 +19,7 @@
 
       <div class="service-block">
         <div class="service-content">
-          <img src="/icon_2.png" alt="Icona Tecnologie moderne" />
+          <img src="/images/icons/icon_2.png" alt="Icona Tecnologie moderne" />
           <div class="text">
             <h3>Tecnologie moderne</h3>
             <p>
@@ -35,7 +35,7 @@
 
       <div class="service-block">
         <div class="service-content reverse">
-          <img src="/icon_3.png" alt="Icona Approccio consulenziale" />
+          <img src="/images/icons/icon_3.png" alt="Icona Approccio consulenziale" />
           <div class="text">
             <h3>Approccio consulenziale</h3>
             <p>
@@ -49,7 +49,7 @@
 
       <div class="service-block">
         <div class="service-content">
-          <img src="/icon_4.png" alt="Icona Assistenza e continuità" />
+          <img src="/images/icons/icon_4.png" alt="Icona Assistenza e continuità" />
           <div class="text">
             <h3>Assistenza e continuità</h3>
             <p>

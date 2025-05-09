@@ -2,7 +2,7 @@
   <header class="site-header" :class="{ open: isMenuOpen }">
     <div class="container">
       <div class="logo">
-        <img src="/logo.png" alt="Veleex Logo" />
+        <img src="/images/logos/logo.png" alt="Veleex Logo" />
         <!-- <span class="logo-text">Veleex</span> -->
       </div>
       <nav class="menu-desktop">
@@ -57,7 +57,7 @@ const toggleMenu = () => (isMenuOpen.value = !isMenuOpen.value)
   }
 
   .logo img {
-    height: 40px;
+    height: 60px;
   }
 
   .menu-desktop {
@@ -67,7 +67,7 @@ const toggleMenu = () => (isMenuOpen.value = !isMenuOpen.value)
 
     ul {
       display: flex;
-      gap: 4rem;
+      gap: 6rem;
       list-style: none;
       margin: 0;
       padding: 0;
@@ -190,6 +190,7 @@ const toggleMenu = () => (isMenuOpen.value = !isMenuOpen.value)
 
     .hamburger {
       display: flex;
+      padding-right: 1rem;
     }
   }
 }

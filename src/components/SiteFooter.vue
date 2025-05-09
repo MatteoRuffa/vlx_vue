@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-logo">
-        <img src="/veleex2.png" alt="Logo Veleex Srl" />
+        <img src="/images/logos/veleex2.png" alt="Logo Veleex Srl" />
       </div>
       <div class="footer-info">
         <p class="company-name">Veleex Srl</p>

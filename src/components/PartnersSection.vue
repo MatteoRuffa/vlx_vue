@@ -21,7 +21,7 @@
       </div>
       <div class="bando-logo">
         <a href="/TARGA-MANIFESTO.pdf" target="_blank" rel="noopener">
-          <img src="/logo_bando_1.jpg" alt="Logo Bando" />
+          <img src="/images/logos/logo_bando_1.jpg" alt="Logo Bando" />
         </a>
       </div>
     </div>
